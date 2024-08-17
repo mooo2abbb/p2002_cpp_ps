@@ -4,18 +4,31 @@
 #include <string>
 using namespace std;
 
+int Decode (string msg , int key);
+
 int main()
 {
-char character;    
-string msg;
-int  key;
- 
-cout<<"enter your msg"<<"\n"; 
-getline(cin , msg ); 
+    
+string message ;
+int key;
 
-cout<<"enter your key"<<"\n"; 
-cin >>key; 
- 
+cout<<"enter your message \n";
+getline(cin , message);
+
+
+cout<<"enter your key \n";
+cin >>key;
+
+cout<<"message = "<<Decode(message , key)<<"\n";
+}
+
+
+
+int Decode (string msg , int key)
+{
+
+char character;
+
 for(int i=0 ; i<msg[i]  ; i++) 
 {
 character = msg[i]; 
@@ -50,5 +63,3 @@ cout<<" msg = "<<msg<<"\n";
 
 return 0;
 }
-
-
