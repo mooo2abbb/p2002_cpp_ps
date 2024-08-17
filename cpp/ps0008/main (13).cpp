@@ -16,7 +16,7 @@ getline(cin , msg );
 cout<<"enter your key"<<"\n"; 
 cin >>key; 
  
-for(int i=0 ; msg[i]  ; i++) 
+for(int i=0 ; i<msg[i]  ; i++) 
 {
 ch = msg[i]; 
  
