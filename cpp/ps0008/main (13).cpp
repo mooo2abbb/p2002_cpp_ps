@@ -6,7 +6,7 @@ using namespace std;
 
 int main()
 {
-char ch;    
+char character;    
 string msg;
 int  key;
  
@@ -18,30 +18,30 @@ cin >>key;
  
 for(int i=0 ; i<msg[i]  ; i++) 
 {
-ch = msg[i]; 
+character = msg[i]; 
  
-if(ch >= 'a' && ch <= 'z') 
+if(character >= 'a' && character <= 'z') 
 {
-ch -=key;    
+character -=key;    
  
  
-if(ch > 'z') 
+if(character > 'z') 
 
-ch = ch-'z' + 'a'-1;    
+character = character-'z' + 'a'-1;    
 
-msg[i] = ch; 
+msg[i] = character; 
 } 
  
-else if(ch >= 'A' && ch <= 'Z') 
+else if(character >= 'A' && character <= 'Z') 
 {
-ch -=key;    
+character -=key;    
  
  
-if(ch > 'Z') 
+if(character > 'Z') 
 
-ch = ch-'Z' + 'A'-1;      
+character = character-'Z' + 'A'-1;      
  
-msg[i] = ch; 
+msg[i] = character; 
 } 
 } 
  
