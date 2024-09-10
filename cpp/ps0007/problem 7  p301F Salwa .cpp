@@ -3,7 +3,7 @@
 
 using namespace std;
 
-// Area of rectangle = length × width
+// Area of rectangle = length Ã— width
 
 float area (int length, int width);
 
