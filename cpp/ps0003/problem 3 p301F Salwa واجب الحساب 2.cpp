@@ -4,27 +4,21 @@ using namespace std;
 
 int main()
 {
-cout<<"--------------------------------------------" <<endl;
-cout<<"Problem 0003"<< endl;
-
+    // prompting user for number 2/2
     int num;
+    
+    cout << "enter the number" << endl;
+    cin >> num;
 
-
-cout<<"enter the number" << endl;
-cin>> num;
-
-if (num % 2==0)
-{
-    cout <<"your number is even \n1";
-}
-else
-{
-    cout <<"your number is odd \n1";
-
-}
-
-
-
-
+    // checking if the number is odd or even 3/3
+    if (num % 2 == 0)
+    {
+        cout << "your number is even \n";
+    }
+    else
+    {
+        cout << "your number is odd \n";
+    }
+    
     return 0;
 }
