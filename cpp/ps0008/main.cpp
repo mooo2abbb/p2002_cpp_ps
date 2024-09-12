@@ -5,20 +5,28 @@
 
 using namespace std;
 void  decrypt(string msg,int key);
+bool isnum(string s);
 int main()
-{ int  key;
+{ string key;
 string msg;
 
 cout <<"key: ";
 cin>>key;
-
+ bool p=isnum(key);
+ while (p==false){
+   cout <<"key: ";
+cin>>key;
+p=isnum(key);
+}
+int k=stoi(key);
  cin.ignore();
 cout<<"ciphertext: ";
 
 getline(cin,msg);
 
 
-decrypt(msg,key);
+decrypt(msg,k);
+
     return 0;
 }
 void decrypt(string msg,int key){
@@ -57,14 +65,20 @@ cout<<"plaintext: "<<plaintext<<endl;
 
 }
 
+bool isnum (string s){
+  if(isdigit(s[0])||s[0]=='+'||s[0]=='-'){
+
+ for(int i=1;i<s.length();i++){
+    if(!isdigit(s[i]))
+        return false ;
+}}
+else{
+    return false;
+}
+return true;
 
 
-
-
-
-
-
-
+}
 
 
 
