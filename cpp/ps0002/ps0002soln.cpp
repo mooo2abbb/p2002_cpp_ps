@@ -4,32 +4,35 @@ using namespace std;
 
 int main()
 {
-  short inhabitance = 20 ;
+  short inhabitance = 20 ; // 0.75/0.75
   cout << inhabitance << endl;
 
-  short Alternatives = 3 ;
+  short Alternatives = 3 ; // 0.75/0.75
   cout << Alternatives << endl;
   
-  short team_members = 10 ;
+  short team_members = 10 ; // 0.75/0.75
   cout << team_members << endl;
 
-  short bread_price = 5 ;
+  float bread_price = 5.5 ; // 0.5/0.75
   cout << bread_price << endl;
   
-  char first_letter = 'E' ;
+  char first_letter = 'E' ; // 0.75/0.75
   cout << first_letter << endl;
 
-  short Number_of_births = 1024061 ;
+  int Number_of_births = 1024061 ; // 0.5/0.75
   cout << Number_of_births << endl;
 
-  double dob = 17.f / 7.f ;
-  cout << dob << endl;
+  double res = 17 / 7.0 ; // 0.75/0.75
+  cout << res << endl;
 
-  short Electricity_bill = 3948575 ;
+  float Electricity_bill = 3948575.99 ; // 0.5/0.75
   cout << Electricity_bill << endl ;
 
-  short Age_in_seconds = 94608000 ;
+  unsigned int Age_in_seconds = 94608000 ; // 0.5/0.75
   cout << Age_in_seconds << endl ;
 
+  // total 5.75/6.75
+  
   return 0;
 }
+// great work 😎 9/10 ⭐
