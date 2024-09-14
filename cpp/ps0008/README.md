@@ -37,7 +37,7 @@ plaintext:  Hello!
 ```
 ```
 Key: 30
-ciphertext: Stir xli 3 hssw!
+ciphertext: Stir xli 3 hssvw!
 plaintext:  Open the 3 doors!
 ```
 ```
