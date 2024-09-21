@@ -1,7 +1,7 @@
-@include <"iostream.h">
+#include <iostream>
 
-int Main(void)
+int Main()
 {
-  cout >> "Hello, World!/n"
-  return 1;
+ std::cout << "Hello World";
+  return 0;
 }
