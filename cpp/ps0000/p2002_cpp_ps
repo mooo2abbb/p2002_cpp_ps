@@ -1,1 +1,7 @@
-blob:https://github.com/ee7eb8cd-2980-46af-8e5d-d663d942240f
+#include <iostream>
+
+int Main()
+{
+  std::cout << "Hello World";
+  return 0;
+}
